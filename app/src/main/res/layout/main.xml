@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_centerInParent="true"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+    <EditText
+            android:id="@+id/lastName"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstName"
+
+            android:layout_alignStart="@+id/firstName"
+            android:layout_alignLeft="@+id/firstName"
+            android:layout_alignEnd="@+id/firstName"
+            android:layout_alignRight="@+id/firstName"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="-83dp"
+            android:layout_marginRight="-83dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+    <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/lastName"
+            android:layout_alignRight="@+id/lastName"
+            android:layout_alignBottom="@+id/lastName"
+            android:layout_marginEnd="242dp"
+            android:layout_marginRight="242dp"
+            android:layout_marginBottom="-160dp"
+            android:text="Button" />
+
+
+</RelativeLayout>
